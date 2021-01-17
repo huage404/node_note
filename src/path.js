@@ -1,6 +1,6 @@
 // 引入 path 模块
 
-const path = require('path')
+const path = require('src/path')
 
 const filePath = './path.js'
 
