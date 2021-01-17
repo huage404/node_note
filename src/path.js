@@ -1,8 +1,6 @@
 // 引入 path 模块
 
-const path = require('src/path')
-
-const filePath = './path.js'
+const path = require('path')
 
 /*
 *   normalize: 将一个路径字符串转换为标准的路径字符串
@@ -19,7 +17,7 @@ console.log('将两个路径字符串拼接成一个标准的路径字符串',pa
 /*
 *   resolve: 将一个相对路径转换成绝对路径
 * */
-console.log('将一个相对路径转换成绝对路径',path.resolve('./path.js'))     // user/path.js
+console.log('将一个相对路径转换成绝对路径',path.resolve('path.js'))     // user/path.js
 
 
 /*
@@ -37,7 +35,7 @@ console.log('获取拓展名',path.extname('abc/bcd/efg.md'))     // .md
 /*
 *   dirname: 获取路径字符串中，文件相对与执行文件的相对路径
 * */
-console.log('获取文件路径',path.dirname('./path.js'))     // .
+console.log('获取文件路径',path.dirname('path.js'))     // .
 
 
 /*
