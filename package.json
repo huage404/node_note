@@ -1,8 +1,11 @@
 {
-  "name": "node_test",
+  "name": "node_note",
   "version": "1.0.0",
   "description": "NodeJS 学习笔记",
   "main": "index.js",
   "author": "xzh",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
